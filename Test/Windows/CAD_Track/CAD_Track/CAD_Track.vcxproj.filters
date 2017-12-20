@@ -1,0 +1,351 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\Shared">
+      <UniqueIdentifier>{a056ce2e-f0c3-4880-b3ed-4b25b1f9301b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Shared">
+      <UniqueIdentifier>{c43b51dc-570d-4f50-9cca-edcbe1d1f800}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\CadModule">
+      <UniqueIdentifier>{fc78e6ca-6240-44fd-b7d1-8f0b9604c00c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\CadModule">
+      <UniqueIdentifier>{39a92f5a-a545-4e0a-a264-ab5e24f66e7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\CadModule\CadCore">
+      <UniqueIdentifier>{e10e9251-1587-4771-bfb5-1b7632b265f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\CadModule\Interface">
+      <UniqueIdentifier>{2f621c5f-5c25-4f24-b62b-219f89353804}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\CadModule\CadCore">
+      <UniqueIdentifier>{9e325f9e-dee7-45df-87ec-d9d9d7863079}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\CadModule\Interface">
+      <UniqueIdentifier>{956837b9-ed5d-4085-aa10-487b3ae4ce03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Shared\DebugTools">
+      <UniqueIdentifier>{421b3352-8cb5-4c03-81b7-71a19bbce27f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Shared\DebugTools">
+      <UniqueIdentifier>{65ecf10a-59c5-4173-9bf4-4fdc5390537a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Shared\GlobalConfig">
+      <UniqueIdentifier>{9c1b5a4f-6fdc-483d-b6ef-0407b15971fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Shared\std-multi-platform">
+      <UniqueIdentifier>{b69f54ff-8afe-47c4-9bc0-fcc19517fee3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Shared\JniHelper">
+      <UniqueIdentifier>{802dcd3d-5584-4c47-bc38-dab803a882de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Shared\ImageHelper">
+      <UniqueIdentifier>{24a91829-471e-4d79-acfa-664c21f31947}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Shared\JniHelper">
+      <UniqueIdentifier>{def62311-9b9d-48f9-8dea-1b82a5fc8ba0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Shared\ImageHelper">
+      <UniqueIdentifier>{6184b812-9911-4505-897e-b92c59488af8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\CadModule\dxf">
+      <UniqueIdentifier>{5da2c23f-dab0-4cff-b991-9db910302d6b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\CadModule\dxf">
+      <UniqueIdentifier>{a0ed8d18-f202-4e31-841e-5875ab49fbd5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Shared\AngleHelper">
+      <UniqueIdentifier>{5e2ebf34-3c48-48f8-ac9a-a9f58634cf82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Shared\AngleHelper">
+      <UniqueIdentifier>{ee3baf5d-7e5e-450f-9a79-1dad2786c038}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\CadModule\CadCore\dxf\GLSCAN.CPP">
+      <Filter>源文件\CadModule\dxf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\CadModule\CadCore\dxf\GLFACE.CPP">
+      <Filter>源文件\CadModule\dxf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\CadModule\CadCore\dxf\GLTSTACK.CPP">
+      <Filter>源文件\CadModule\dxf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\CadModule\CadCore\dxf\PAGEPOOL.CPP">
+      <Filter>源文件\CadModule\dxf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\CadModule\CadCore\dxf\GLOBJ.CPP">
+      <Filter>源文件\CadModule\dxf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\CadModule\CadCore\dxf\FACCESS.CPP">
+      <Filter>源文件\CadModule\dxf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Shared\DebugTools\src\AlvaTimer.c">
+      <Filter>源文件\Shared\DebugTools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Shared\DebugTools\src\Dump.c">
+      <Filter>源文件\Shared\DebugTools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Shared\JniHelper\src\AndroidHelper.c">
+      <Filter>源文件\Shared\JniHelper</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Shared\std-multi-platform\aligned_malloc.c">
+      <Filter>头文件\Shared\std-multi-platform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Shared\ImageHelper\src\BmpHelper.c">
+      <Filter>源文件\Shared\ImageHelper</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Shared\ImageHelper\src\ImageConverter.c">
+      <Filter>源文件\Shared\ImageHelper</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Shared\ImageHelper\src\ImageDistortionCorrection.c">
+      <Filter>源文件\Shared\ImageHelper</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Shared\ImageHelper\src\ImageFilter.c">
+      <Filter>源文件\Shared\ImageHelper</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Shared\ImageHelper\src\ImageResize.c">
+      <Filter>源文件\Shared\ImageHelper</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Shared\ImageHelper\src\ImageRotate.c">
+      <Filter>源文件\Shared\ImageHelper</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Shared\AngleHelper\src\EulerRotationMatrix.c">
+      <Filter>源文件\Shared\AngleHelper</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Shared\AngleHelper\src\QuarternionRotationMatrix.c">
+      <Filter>源文件\Shared\AngleHelper</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\CadModule\CadCore\src\DXF3GL.cpp">
+      <Filter>源文件\CadModule\CadCore</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\CadModule\CadCore\src\CadCutImage.c">
+      <Filter>源文件\CadModule\CadCore</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\CadModule\CadCore\src\CadGaosi.c">
+      <Filter>源文件\CadModule\CadCore</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\CadModule\Interface\CadInterface.cpp">
+      <Filter>源文件\CadModule\Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\CadModule\CadCore\src\CadNormal.cpp">
+      <Filter>源文件\CadModule\CadCore</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\CadModule\CadCore\src\CadDraw.cpp">
+      <Filter>源文件\CadModule\CadCore</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\CadModule\CadCore\src\CadSimilarity.cpp">
+      <Filter>源文件\CadModule\CadCore</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\CadModule\CadCore\src\CadGradient.cpp">
+      <Filter>源文件\CadModule\CadCore</Filter>
+    </ClCompile>
+    <ClCompile Include="testShow.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\CadModule\CadCore\src\CadInhibition.cpp">
+      <Filter>源文件\CadModule\CadCore</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\CadModule\CadCore\src\CadPoints.cpp">
+      <Filter>源文件\CadModule\CadCore</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\CadModule\CadCore\src\CadErodeDilate.cpp">
+      <Filter>源文件\CadModule\CadCore</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\CadModule\CadCore\src\CadBuffer.cpp">
+      <Filter>源文件\CadModule\CadCore</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\CadModule\CadCore\src\CadMatrix.cpp">
+      <Filter>源文件\CadModule\CadCore</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\CadModule\CadCore\src\CadCalculateM.cpp">
+      <Filter>源文件\CadModule\CadCore</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\CadModule\CadCore\src\LineTriangleIntersect.cpp">
+      <Filter>源文件\CadModule\CadCore</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\CadModule\CadCore\src\CadIsSee.cpp">
+      <Filter>源文件\CadModule\CadCore</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\CadModule\CadCore\src\CadUpdataRT.cpp">
+      <Filter>源文件\CadModule\CadCore</Filter>
+    </ClCompile>
+    <ClCompile Include="cv_temp.cpp">
+      <Filter>源文件\CadModule\CadCore</Filter>
+    </ClCompile>
+    <ClCompile Include="LineTriangleIntersect1.cpp">
+      <Filter>源文件\CadModule\CadCore</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\CadModule\CadCore\dxf\GLOBJ.H">
+      <Filter>头文件\CadModule\dxf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\CadModule\CadCore\dxf\GLFACE.H">
+      <Filter>头文件\CadModule\dxf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\CadModule\CadCore\dxf\FACCESS.h">
+      <Filter>头文件\CadModule\dxf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\CadModule\CadCore\dxf\PAGEPOOL.H">
+      <Filter>头文件\CadModule\dxf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\CadModule\CadCore\dxf\GLTSTACK.H">
+      <Filter>头文件\CadModule\dxf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\CadModule\CadCore\dxf\GLTOKEN.H">
+      <Filter>头文件\CadModule\dxf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\CadModule\CadCore\dxf\GLSCAN.H">
+      <Filter>头文件\CadModule\dxf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\CadModule\CadCore\dxf\DXFVALS.H">
+      <Filter>头文件\CadModule\dxf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\CadModule\CadCore\dxf\IANSTD.H">
+      <Filter>头文件\CadModule\dxf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Shared\DebugTools\include\AlvaTimer.h">
+      <Filter>头文件\Shared\DebugTools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Shared\DebugTools\include\Dump.h">
+      <Filter>头文件\Shared\DebugTools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Shared\DebugTools\include\ErrorTools.h">
+      <Filter>头文件\Shared\DebugTools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Shared\DebugTools\include\Log.h">
+      <Filter>头文件\Shared\DebugTools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Shared\GlobalConfig\Config.h">
+      <Filter>头文件\Shared\GlobalConfig</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Shared\GlobalConfig\Format.h">
+      <Filter>头文件\Shared\GlobalConfig</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Shared\JniHelper\include\AndroidHelper.h">
+      <Filter>头文件\Shared\JniHelper</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Shared\std-multi-platform\aligned_malloc.h">
+      <Filter>头文件\Shared\std-multi-platform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Shared\std-multi-platform\memory_fl.h">
+      <Filter>头文件\Shared\std-multi-platform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Shared\std-multi-platform\stdio_fl.h">
+      <Filter>头文件\Shared\std-multi-platform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Shared\std-multi-platform\stdlib_fl.h">
+      <Filter>头文件\Shared\std-multi-platform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Shared\std-multi-platform\string_fl.h">
+      <Filter>头文件\Shared\std-multi-platform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Shared\ImageHelper\include\BmpHelper.h">
+      <Filter>头文件\Shared\ImageHelper</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Shared\ImageHelper\include\ImageConverter.h">
+      <Filter>头文件\Shared\ImageHelper</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Shared\ImageHelper\include\ImageDistortionCorrection.h">
+      <Filter>头文件\Shared\ImageHelper</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Shared\ImageHelper\include\ImageFilter.h">
+      <Filter>头文件\Shared\ImageHelper</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Shared\ImageHelper\include\ImageResize.h">
+      <Filter>头文件\Shared\ImageHelper</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Shared\ImageHelper\include\ImageRotate.h">
+      <Filter>头文件\Shared\ImageHelper</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Shared\AngleHelper\include\EulerRotationMatrix.h">
+      <Filter>头文件\Shared\AngleHelper</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Shared\AngleHelper\include\QuarternionRotationMatrix.h">
+      <Filter>头文件\Shared\AngleHelper</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\CadModule\CadCore\include\DXF3GL.h">
+      <Filter>头文件\CadModule\CadCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\CadModule\CadCore\include\CadCutImage.h">
+      <Filter>头文件\CadModule\CadCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\CadModule\CadCore\include\CadGaosi.h">
+      <Filter>头文件\CadModule\CadCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\CadModule\CadCore\include\CadMacro.h">
+      <Filter>头文件\CadModule\CadCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\CadModule\Interface\CadInterface.h">
+      <Filter>头文件\CadModule\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\CadModule\CadCore\include\CadNormal.h">
+      <Filter>头文件\CadModule\CadCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\CadModule\CadCore\include\CadDraw.h">
+      <Filter>头文件\CadModule\CadCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\CadModule\CadCore\include\CadStruct.h">
+      <Filter>头文件\CadModule\CadCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\CadModule\CadCore\include\CadSimilarity.h">
+      <Filter>头文件\CadModule\CadCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\CadModule\CadCore\include\CadGradient.h">
+      <Filter>头文件\CadModule\CadCore</Filter>
+    </ClInclude>
+    <ClInclude Include="testShow.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\CadModule\CadCore\include\CadInhibition.h">
+      <Filter>头文件\CadModule\CadCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\CadModule\CadCore\include\CadPoints.h">
+      <Filter>头文件\CadModule\CadCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\CadModule\CadCore\include\CadErodeDilate.h">
+      <Filter>头文件\CadModule\CadCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\CadModule\CadCore\include\CadBuffer.h">
+      <Filter>头文件\CadModule\CadCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\CadModule\CadCore\include\CadMatrix.h">
+      <Filter>头文件\CadModule\CadCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\CadModule\CadCore\include\CadCalculateM.h">
+      <Filter>头文件\CadModule\CadCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\CadModule\CadCore\include\CadIsSee.h">
+      <Filter>头文件\CadModule\CadCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\CadModule\CadCore\include\CadUpDataRT.h">
+      <Filter>头文件\CadModule\CadCore</Filter>
+    </ClInclude>
+    <ClInclude Include="cv_temp.h">
+      <Filter>头文件\CadModule\CadCore</Filter>
+    </ClInclude>
+    <ClInclude Include="LineTriangleIntersect1.h">
+      <Filter>源文件\CadModule\CadCore</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

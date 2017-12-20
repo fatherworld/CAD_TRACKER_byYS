@@ -1,0 +1,255 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{209E29AA-8309-4AC3-9A04-FDA7A9523630}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>CAD_Track</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="UseDir.props" />
+    <Import Project="CV_D.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="UseDir.props" />
+    <Import Project="CV_D.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="UseDir.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="UseDir.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;NDENUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <FunctionLevelLinking>
+      </FunctionLevelLinking>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\CadModule\CadCore\dxf\FACCESS.CPP" />
+    <ClCompile Include="..\..\..\..\CadModule\CadCore\dxf\GLFACE.CPP" />
+    <ClCompile Include="..\..\..\..\CadModule\CadCore\dxf\GLOBJ.CPP" />
+    <ClCompile Include="..\..\..\..\CadModule\CadCore\dxf\GLSCAN.CPP" />
+    <ClCompile Include="..\..\..\..\CadModule\CadCore\dxf\GLTSTACK.CPP" />
+    <ClCompile Include="..\..\..\..\CadModule\CadCore\dxf\PAGEPOOL.CPP" />
+    <ClCompile Include="..\..\..\..\CadModule\CadCore\src\CadBuffer.cpp" />
+    <ClCompile Include="..\..\..\..\CadModule\CadCore\src\CadCalculateM.cpp" />
+    <ClCompile Include="..\..\..\..\CadModule\CadCore\src\CadDraw.cpp" />
+    <ClCompile Include="..\..\..\..\CadModule\CadCore\src\CadErodeDilate.cpp" />
+    <ClCompile Include="..\..\..\..\CadModule\CadCore\src\CadGradient.cpp" />
+    <ClCompile Include="..\..\..\..\CadModule\CadCore\src\CadInhibition.cpp" />
+    <ClCompile Include="..\..\..\..\CadModule\CadCore\src\CadIsSee.cpp" />
+    <ClCompile Include="..\..\..\..\CadModule\CadCore\src\CadNormal.cpp" />
+    <ClCompile Include="..\..\..\..\CadModule\CadCore\src\CadPoints.cpp" />
+    <ClCompile Include="..\..\..\..\CadModule\CadCore\src\CadUpdataRT.cpp" />
+    <ClCompile Include="..\..\..\..\CadModule\CadCore\src\DXF3GL.cpp" />
+    <ClCompile Include="..\..\..\..\CadModule\CadCore\src\CadMatrix.cpp" />
+    <ClCompile Include="..\..\..\..\CadModule\CadCore\src\CadCutImage.c" />
+    <ClCompile Include="..\..\..\..\CadModule\CadCore\src\CadGaosi.c" />
+    <ClCompile Include="..\..\..\..\CadModule\CadCore\src\CadSimilarity.cpp" />
+    <ClCompile Include="..\..\..\..\CadModule\CadCore\src\LineTriangleIntersect.cpp" />
+    <ClCompile Include="..\..\..\..\CadModule\Interface\CadInterface.cpp" />
+    <ClCompile Include="..\..\..\Shared\AngleHelper\src\EulerRotationMatrix.c" />
+    <ClCompile Include="..\..\..\Shared\AngleHelper\src\QuarternionRotationMatrix.c" />
+    <ClCompile Include="..\..\..\Shared\DebugTools\src\AlvaTimer.c" />
+    <ClCompile Include="..\..\..\Shared\DebugTools\src\Dump.c" />
+    <ClCompile Include="..\..\..\Shared\ImageHelper\src\BmpHelper.c" />
+    <ClCompile Include="..\..\..\Shared\ImageHelper\src\ImageConverter.c" />
+    <ClCompile Include="..\..\..\Shared\ImageHelper\src\ImageDistortionCorrection.c" />
+    <ClCompile Include="..\..\..\Shared\ImageHelper\src\ImageFilter.c" />
+    <ClCompile Include="..\..\..\Shared\ImageHelper\src\ImageResize.c" />
+    <ClCompile Include="..\..\..\Shared\ImageHelper\src\ImageRotate.c" />
+    <ClCompile Include="..\..\..\Shared\JniHelper\src\AndroidHelper.c" />
+    <ClCompile Include="..\..\..\Shared\std-multi-platform\aligned_malloc.c" />
+    <ClCompile Include="cv_temp.cpp" />
+    <ClCompile Include="LineTriangleIntersect1.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="testShow.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\CadModule\CadCore\dxf\DXFVALS.H" />
+    <ClInclude Include="..\..\..\..\CadModule\CadCore\dxf\FACCESS.h" />
+    <ClInclude Include="..\..\..\..\CadModule\CadCore\dxf\GLFACE.H" />
+    <ClInclude Include="..\..\..\..\CadModule\CadCore\dxf\GLOBJ.H" />
+    <ClInclude Include="..\..\..\..\CadModule\CadCore\dxf\GLSCAN.H" />
+    <ClInclude Include="..\..\..\..\CadModule\CadCore\dxf\GLTOKEN.H" />
+    <ClInclude Include="..\..\..\..\CadModule\CadCore\dxf\GLTSTACK.H" />
+    <ClInclude Include="..\..\..\..\CadModule\CadCore\dxf\IANSTD.H" />
+    <ClInclude Include="..\..\..\..\CadModule\CadCore\dxf\PAGEPOOL.H" />
+    <ClInclude Include="..\..\..\..\CadModule\CadCore\include\CadBuffer.h" />
+    <ClInclude Include="..\..\..\..\CadModule\CadCore\include\CadCalculateM.h" />
+    <ClInclude Include="..\..\..\..\CadModule\CadCore\include\CadDraw.h" />
+    <ClInclude Include="..\..\..\..\CadModule\CadCore\include\CadErodeDilate.h" />
+    <ClInclude Include="..\..\..\..\CadModule\CadCore\include\CadGradient.h" />
+    <ClInclude Include="..\..\..\..\CadModule\CadCore\include\CadInhibition.h" />
+    <ClInclude Include="..\..\..\..\CadModule\CadCore\include\CadIsSee.h" />
+    <ClInclude Include="..\..\..\..\CadModule\CadCore\include\CadMacro.h" />
+    <ClInclude Include="..\..\..\..\CadModule\CadCore\include\CadNormal.h" />
+    <ClInclude Include="..\..\..\..\CadModule\CadCore\include\CadPoints.h" />
+    <ClInclude Include="..\..\..\..\CadModule\CadCore\include\CadStruct.h" />
+    <ClInclude Include="..\..\..\..\CadModule\CadCore\include\CadUpDataRT.h" />
+    <ClInclude Include="..\..\..\..\CadModule\CadCore\include\DXF3GL.h" />
+    <ClInclude Include="..\..\..\..\CadModule\CadCore\include\CadMatrix.h" />
+    <ClInclude Include="..\..\..\..\CadModule\CadCore\include\CadCutImage.h" />
+    <ClInclude Include="..\..\..\..\CadModule\CadCore\include\CadGaosi.h" />
+    <ClInclude Include="..\..\..\..\CadModule\CadCore\include\CadSimilarity.h" />
+    <ClInclude Include="..\..\..\..\CadModule\Interface\CadInterface.h" />
+    <ClInclude Include="..\..\..\Shared\AngleHelper\include\EulerRotationMatrix.h" />
+    <ClInclude Include="..\..\..\Shared\AngleHelper\include\QuarternionRotationMatrix.h" />
+    <ClInclude Include="..\..\..\Shared\DebugTools\include\AlvaTimer.h" />
+    <ClInclude Include="..\..\..\Shared\DebugTools\include\Dump.h" />
+    <ClInclude Include="..\..\..\Shared\DebugTools\include\ErrorTools.h" />
+    <ClInclude Include="..\..\..\Shared\DebugTools\include\Log.h" />
+    <ClInclude Include="..\..\..\Shared\GlobalConfig\Config.h" />
+    <ClInclude Include="..\..\..\Shared\GlobalConfig\Format.h" />
+    <ClInclude Include="..\..\..\Shared\ImageHelper\include\BmpHelper.h" />
+    <ClInclude Include="..\..\..\Shared\ImageHelper\include\ImageConverter.h" />
+    <ClInclude Include="..\..\..\Shared\ImageHelper\include\ImageDistortionCorrection.h" />
+    <ClInclude Include="..\..\..\Shared\ImageHelper\include\ImageFilter.h" />
+    <ClInclude Include="..\..\..\Shared\ImageHelper\include\ImageResize.h" />
+    <ClInclude Include="..\..\..\Shared\ImageHelper\include\ImageRotate.h" />
+    <ClInclude Include="..\..\..\Shared\JniHelper\include\AndroidHelper.h" />
+    <ClInclude Include="..\..\..\Shared\std-multi-platform\aligned_malloc.h" />
+    <ClInclude Include="..\..\..\Shared\std-multi-platform\memory_fl.h" />
+    <ClInclude Include="..\..\..\Shared\std-multi-platform\stdio_fl.h" />
+    <ClInclude Include="..\..\..\Shared\std-multi-platform\stdlib_fl.h" />
+    <ClInclude Include="..\..\..\Shared\std-multi-platform\string_fl.h" />
+    <ClInclude Include="cv_temp.h" />
+    <ClInclude Include="LineTriangleIntersect1.h" />
+    <ClInclude Include="testShow.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

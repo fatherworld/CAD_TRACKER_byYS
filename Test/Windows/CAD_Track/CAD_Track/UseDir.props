@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Label="PropertySheets" />
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <IncludePath>$(SolutionDir)..\..\..\CadModule\CadCore\include;$(SolutionDir)..\..\..\CadModule\Interface;$(SolutionDir)..\..\Shared\DebugTools\include;$(SolutionDir)..\..\Shared\GlobalConfig;$(SolutionDir)..\..\Shared\ImageHelper\include;$(SolutionDir)..\..\Shared\JniHelper\include;$(SolutionDir)..\..\Shared\std-multi-platform;$(SolutionDir)..\..\..\CadModule\CadCore\dxf;$(SolutionDir)..\..\Shared\AngleHelper\include;$(ProjectDir);$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalOptions>/DOS_ALVA=OS_Windows /DCPU_ALVA=CPU_x86 /DDebugInfo_Switch=Release_Alva %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup />
+</Project>

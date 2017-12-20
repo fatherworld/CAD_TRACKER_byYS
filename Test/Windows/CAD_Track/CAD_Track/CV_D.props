@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Label="PropertySheets" />
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <IncludePath>$(SolutionDir)..\..\Shared\OpenCV\include;$(SolutionDir)..\..\Shared\OpenGl\include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)..\..\Shared\OpenGl\lib;$(SolutionDir)..\..\Shared\OpenCV\lib\x86;$(LibraryPath)</LibraryPath>
+    <_PropertySheetDisplayName>CV_DR</_PropertySheetDisplayName>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <Link>
+      <AdditionalDependencies>glew32.lib;freeglut.lib;opencv_world320.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup />
+</Project>

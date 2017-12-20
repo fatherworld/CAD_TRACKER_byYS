@@ -1,0 +1,9 @@
+-nan(ind) -nan(ind) -nan(ind) -nan(ind) 
+-nan(ind) -nan(ind) -nan(ind) -nan(ind) 
+-nan(ind) -nan(ind) -nan(ind) -nan(ind) 
+-nan(ind) -nan(ind) -nan(ind) -nan(ind) 
+M= 
+-nan(ind) -nan(ind) -nan(ind) -nan(ind) 
+-nan(ind) -nan(ind) -nan(ind) -nan(ind) 
+-nan(ind) -nan(ind) -nan(ind) -nan(ind) 
+-nan(ind) -nan(ind) -nan(ind) -nan(ind) 
