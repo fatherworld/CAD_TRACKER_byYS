@@ -15,7 +15,10 @@
 #include "CadStruct.h"
 #include <string>
 using namespace cv;
-
+void giveTestFile()
+{
+	return;
+}
 
 Mat EulerAng2Rotate(float RotX, float RotY, float RotZ)
 {
